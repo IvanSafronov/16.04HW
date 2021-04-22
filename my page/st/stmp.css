@@ -1,0 +1,22 @@
+.foto{
+    background-image: url("../picture/i.jpg");
+    float: left;
+    background-size: 300px 600px;
+    height: 600px;
+    width: 300px;
+}
+.myname{
+    float: right;
+    height: 100px;
+    width: 500px;
+}
+.inf{
+    float: right;
+    height: 500px;
+    width:300px;
+}
+.like{
+    float: right;
+    height: 500px;
+    width: 200px;
+}
