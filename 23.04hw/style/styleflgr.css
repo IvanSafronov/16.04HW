@@ -1,0 +1,105 @@
+body{
+    background-color: blanchedalmond;
+}
+/*Задание 2*/
+.circle {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 50%;
+    background-color: chartreuse;
+}
+/*Задание 3*/
+.container1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+.circle2 {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 50%;
+    display: flex;
+    background-color: black;
+}
+/*Задание 4*/
+.circle3 {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 50%;
+    display: flex;
+    background-color: orange;
+}
+.container2{
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr 1fr 1fr 1fr 1fr);
+    grid-template-rows: 1fr;
+}
+/*Задание 5*/
+.circle4 {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 50%;
+    display: flex;
+    background-color: darkgreen;
+}
+.container3 {
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr 1fr 1fr 1fr 1fr);
+    grid-template-rows: 2fr;
+}
+/*Задание6*/
+.circle5 {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 50%;
+    display: flex;
+    background-color: grey;
+}
+.container4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr 1fr 1fr 1fr 1fr);
+    grid-template-rows: 2fr;
+}
+@media all and (min-width: 500px) and (max-width: 1000px) {
+    .circle5 {
+        width: 50px;
+        height: 50px;
+        margin: 5px;
+        border-radius: 50%;
+        display: flex;
+        background-color: aqua;
+    }
+
+    .container4 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr 1fr 1fr 1fr 1fr);
+        grid-template-rows: 2fr;
+    }
+}
+@media all and (max-width: 500px) {
+    .circle5 {
+        width: 50px;
+        height: 50px;
+        margin: 5px;
+        border-radius: 50%;
+        display: flex;
+        background-color: red;
+    }
+    .container4 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 4fr;
+}
+}
+
+
+
